@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Neue Haas Grotesk Display Pro 55 Roman", "Neue Haas Grotesk Text Pro", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Neue Haas Grotesk Display Pro 55 Roman", "sans-serif";
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-[#e8ede6];
+    background-color: #000000;
+  }
+}
+
+.letter-tight {
+  letter-spacing: -0.035em;
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
