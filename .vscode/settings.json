@@ -1,0 +1,6 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "${workspaceFolder}\\.tools\\node-v24.18.0-win-x64;${env:PATH}"
+  },
+  "npm.packageManager": "npm"
+}
