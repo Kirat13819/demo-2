@@ -56,7 +56,7 @@ export default function App() {
 
   // Journey milestones for a creative portfolio
   const timelineData = [
-    { year: '2025', text: 'Opening of the "Digital Soul" solo exhibition in Tokyo. Exploring the intersection of generative algorithms and traditional typography.' },
+    { year: '2025', text: 'Openingjbhgrrgbrjjbrjrvbjrb of the "Digital Soul" solo exhibition in Tokyo. Exploring the intersection of generative algorithms and traditional typography.' },
     { year: '2024', text: 'Guest Lecturer at the Basel School of Design. Focused on minimalist interface systems and the psychology of negative space.' },
     { year: '2023', text: 'Won the "International Design Excellence" award for the rebranding of the Global Archive. A study in timeless modernism.' },
     { year: '2022', text: 'Founded "Studio Aria" in London. Transitioned from agency lead to independent direction, serving cultural institutions.' },
